@@ -8,6 +8,11 @@
   border-bottom: 1px solid #e1fd2c;
 }
 
+.facts__container {
+  display: flex;
+  // comment
+}
+
 .facts__container:not(:last-child) {
   border-right: 1px solid #e1fd2c;
 }
