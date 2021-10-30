@@ -1,0 +1,29 @@
+.pros-cons {
+  margin: 40px 69px auto 50px;
+}
+
+.pros-cons__title {
+  color: inherit;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.pros-cons__list {
+  margin: 0;
+  padding: 0;
+}
+
+.pros-cons__list-item {
+  list-style: none;
+
+  color: inherit;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 32px;
+}
