@@ -75,3 +75,10 @@
   line-height: 60px;
   letter-spacing: 1px;
 }
+
+.promo__button:hover {
+  background-color: #e1fd2c;
+  color: #191d2c;
+  font-weight: 600;
+  transition: 0.5s;
+}
