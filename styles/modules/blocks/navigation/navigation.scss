@@ -1,0 +1,28 @@
+.navigation {
+  display: flex;
+  padding: 0;
+  margin: auto 50px;
+}
+
+.navigation__item {
+  list-style: none;
+  padding: 0 10px 0;
+}
+
+.navigation__link {
+  color: inherit;
+  text-decoration: none;
+  font-family: $font-family;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+.navigation__link:hover {
+  opacity: 0.6;
+  transition: 0.5s;
+}
