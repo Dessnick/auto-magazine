@@ -5,9 +5,7 @@
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
   justify-items: flex-start;
-  max-width: 1440px;
-  margin: 0 auto;
-  height: 70px;
+  min-height: 70px;
   border-bottom: 1px solid #e1fd2c;
 }
 
