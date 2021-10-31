@@ -1,9 +1,7 @@
 .facts {
-  max-width: 1440px;
   display: grid;
   grid-template-columns: 2fr repeat(2, 1fr);
 
-  margin: 0 auto;
   min-height: 506px;
   border-bottom: 1px solid #e1fd2c;
 }
