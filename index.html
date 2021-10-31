@@ -14,12 +14,108 @@
     <title>Auto-magazine</title>
   </head>
   <body class="page">
-    <header class="header"></header>
+    <header class="header page__content">
+      <nav>
+        <ul class="navigation header__navigation">
+          <li class="navigation__item">
+            <a href="#facts" class="navigation__link">Факты</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#gallery" class="navigation__link">Галерея</a>
+          </li>
+          <li class="navigation__item">
+            <a href="#press" class="navigation__link">Пресса</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__logo"></div>
+    </header>
     <main class="main">
-      <section class="description"></section>
-      <section class="gallery"></section>
-      <section class="press"></section>
+      <section class="promo page__content">
+        <div class="promo__title-container">
+          <h2 class="promo__subtitle">Volkswagen&nbsp;T1</h2>
+          <h1 class="promo__title">Новая версия популярного микроавтобуса</h1>
+          <h2 class="promo__subtitle">С&nbsp;ЭЛЕКТРОДВИГАТЕЛЕМ</h2>
+          <button class="promo__button">Подробнее</button>
+        </div>
+        <img
+          src="./images/bus-photo.png"
+          alt="фото микроавтобуса"
+          class="promo__picture"
+        />
+      </section>
+      <section class="facts page__content">
+        <div class="facts__container">
+          <p class="facts__description">
+            <span class="facts__span-accent">VW&nbsp;T1&nbsp;Electro:</span>
+            Отделение Volkswagen Commercial Vehicles представило концепт
+            e-Bulli: классический вэн T1 1966 года с&nbsp;электрической силовой
+            установкой. По&nbsp;словам производителя, проект получит
+            коммерческое продолжение, и&nbsp;через фирму-партнера eClassics
+            наборы для конверсии микроавтобусов в&nbsp;электрокары и&nbsp;уже
+            готовые машины будут продавать частным клиентам.
+          </p>
+        </div>
+        <div class="facts__container">
+          <div class="pros-cons">
+            <h2 class="pros-cons__title">ПЛЮСЫ</h2>
+            <ul class="pros-cons__list">
+              <li class="pros-cons__list-item">+ Экологичный</li>
+              <li class="pros-cons__list-item">+ Экономный</li>
+              <li class="pros-cons__list-item">+ Тихий</li>
+            </ul>
+          </div>
+        </div>
+        <div class="facts__container">
+          <div class="pros-cons">
+            <h2 class="pros-cons__title">МИНУСЫ</h2>
+            <ul class="pros-cons__list">
+              <li class="pros-cons__list-item">- Дорогой</li>
+              <li class="pros-cons__list-item">- Подзарядка</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="gallery page__content">
+        <div class="gallery__container">
+          <div class="slider gallery__slider">
+            <div class="slider-content slider__slider-content">
+              <img
+                src="./images/vwt1-1.png"
+                alt=""
+                class="slider-content__slide"
+              />
+              <img
+                src="./images/vwt1-2.png"
+                alt=""
+                class="slider-content__slide"
+              />
+              <img
+                src="./images/vwt1-3.png"
+                alt=""
+                class="slider-content__slide"
+              />
+            </div>
+            <div class="slider__footer">
+              <h2 class="slider__title">Галерея</h2>
+              <div class="slider-navigation slider__navigation">
+                <button
+                  class="slider-navigation__arrow slider-navigation__arrow_left"
+                ></button>
+                <button
+                  class="
+                    slider-navigation__arrow slider-navigation__arrow_right
+                  "
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="gallery__container"></div>
+      </section>
+      <section class="press page__content"></section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer page__content"></footer>
+    <script src="./scripts/script.js"></script>
   </body>
 </html>

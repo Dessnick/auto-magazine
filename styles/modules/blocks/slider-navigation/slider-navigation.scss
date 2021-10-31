@@ -1,0 +1,17 @@
+.slider-navigation__arrow {
+  width: 42px;
+  height: 34px;
+  background: url('../../../../images/arrow.svg');
+  background-size: contain;
+  cursor: pointer;
+  border: none;
+  padding: 0;
+}
+
+.slider-navigation__arrow_left {
+  margin-right: 30px;
+}
+
+.slider-navigation__arrow_right {
+  transform: rotate(180deg);
+}

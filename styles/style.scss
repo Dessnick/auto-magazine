@@ -1,17 +1,24 @@
-@import "../vendor/normalize.css";
+@import '../vendor/normalize.css';
 
-@import "./modules/variables.scss";
+@import './modules/variables.scss';
 
-@import "./modules/blocks/page/page.scss";
+@import './modules/blocks/page/page.scss';
 
-@import "./modules/blocks/header/header.scss";
+@import './modules/blocks/header/header.scss';
+@import './modules/blocks/navigation/navigation.scss';
 
-@import "./modules/blocks/main/main.scss";
+@import './modules/blocks/main/main.scss';
 
-@import "./modules/blocks/description/description.scss";
+@import './modules/blocks/promo/promo.scss';
 
-@import "./modules/blocks/gallery/gallery.scss";
+@import './modules/blocks/facts/facts.scss';
+@import './modules/blocks/pros-cons/pros-cons.scss';
 
-@import "./modules/blocks/press/press.scss";
+@import './modules/blocks/gallery/gallery.scss';
+@import './modules/blocks/slider/slider.scss';
+@import './modules/blocks/slider-content/slider-content.scss';
+@import './modules/blocks/slider-navigation/slider-navigation.scss';
 
-@import "./modules/blocks/footer/footer.scss";
+@import './modules/blocks/press/press.scss';
+
+@import './modules/blocks/footer/footer.scss';
