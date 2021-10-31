@@ -1,5 +1,5 @@
 let currentPositionOfScroll = 0;
-const slide = document.querySelector(".slider-content__image");
+const slide = document.querySelector(".slider-content__slide");
 const sliderContainer = document.querySelector(".slider-content");
 const sliderArrowLeft = document.querySelector(
   ".slider-navigation__arrow_left"
@@ -27,7 +27,7 @@ const getWidthSlideWithMargin = () => {
 const getSliderContentWidth = () => {
   const slideWidth = slide.clientWidth;
   const countOfSlides = document.querySelectorAll(
-    ".slider-content__image"
+    ".slider-content__slide"
   ).length;
   const slideMarginWidth = getMarginRightOfElement(slide);
 
