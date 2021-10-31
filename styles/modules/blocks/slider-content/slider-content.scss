@@ -1,0 +1,11 @@
+.slider-content {
+  max-width: 720px;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.slider-content__image {
+  max-width: 720px;
+  width: 100%;
+  object-fit: contain;
+}

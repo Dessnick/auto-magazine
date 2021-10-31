@@ -1,0 +1,15 @@
+.gallery {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
+
+.gallery__container {
+  display: flex;
+}
+
+.gallery__container:not(:last-child) {
+  border-right: 1px solid #e1fd2c;
+}
