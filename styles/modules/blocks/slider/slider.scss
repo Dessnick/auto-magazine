@@ -1,12 +1,21 @@
+.slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
 .slider__footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: calc(100% - 50px * 2);
-  margin: 0 auto;
+  width: 100%;
+  margin: 50px auto;
 }
 
 .slider__title {
+  margin: 0;
   color: inherit;
   font-family: $font-family;
   font-style: normal;
