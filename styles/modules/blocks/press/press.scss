@@ -1,0 +1,25 @@
+.press {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  min-height: 500px;
+  border-bottom: 1px solid #e1fd2c;
+}
+
+.press__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.press__container:not(:last-child) {
+  border-right: 1px solid #e1fd2c;
+}
+
+.press__title {
+  margin: 0;
+  color: inherit;
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 46px;
+  line-height: 46px;
+}
