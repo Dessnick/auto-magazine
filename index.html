@@ -144,7 +144,45 @@
         </div>
       </section>
     </main>
-    <footer class="footer page__content"></footer>
+    <footer class="footer page__content">
+      <div class="page__section-container">
+        <div class="footer__container footer__container_place_left">
+          <div>
+            <h2 class="footer__title">Подписка</h2>
+            <h3 class="footer__subtitle">На новые спецвыпуски машин.</h3>
+          </div>
+          <form name="subscribe" class="subscribe__form">
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_name"
+              id="name"
+              placeholder="Имя"
+            />
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_surname"
+              id="surname"
+              placeholder="Фамилия"
+            />
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_email"
+              id="email"
+              placeholder="Почта"
+            />
+            <button class="subscribe__item subscribe__button" type="submit">
+              подписка
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="page__section-container">
+        <div class="footer__container footer__container_place_right">
+          <img src="./images/auto-magazine-logo.svg" class="logo" />
+          <p class="footer__copyright">&copy; Auto-Magazine 2021</p>
+        </div>
+      </div>
+    </footer>
     <script src="./scripts/script.js"></script>
   </body>
 </html>
