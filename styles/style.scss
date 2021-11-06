@@ -5,6 +5,8 @@
 
 @import './modules/blocks/page/page.scss';
 
+@import './modules/blocks/logo/logo.scss';
+
 @import './modules/blocks/header/header.scss';
 @import './modules/blocks/navigation/navigation.scss';
 
@@ -24,3 +26,13 @@
 @import './modules/blocks/press/press.scss';
 
 @import './modules/blocks/footer/footer.scss';
+@import './modules/blocks/subscribe/subscribe.scss';
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
