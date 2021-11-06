@@ -3,15 +3,6 @@
   grid-template-columns: 2fr repeat(2, 1fr);
 
   min-height: 506px;
-  border-bottom: 1px solid #e1fd2c;
-}
-
-.facts__container {
-  display: flex;
-}
-
-.facts__container:not(:last-child) {
-  border-right: 1px solid #e1fd2c;
 }
 
 .facts__description {
