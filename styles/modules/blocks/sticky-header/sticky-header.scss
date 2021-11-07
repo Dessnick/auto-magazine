@@ -1,0 +1,10 @@
+.sticky-header {
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  height: 64px;
+  opacity: 1;
+  transition: 0.3s top ease-in-out;
+}
