@@ -1,7 +1,6 @@
 .navigation {
   display: flex;
   padding: 0;
-  margin: auto 50px;
 }
 
 .navigation__item {
@@ -25,4 +24,7 @@
 .navigation__link:hover {
   opacity: 0.6;
   transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
 }

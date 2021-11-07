@@ -8,10 +8,12 @@
   min-height: 70px;
 }
 
-.header__logo {
-  background: url('../../../../images/AUTO-MAGAZINE_logo.svg') no-repeat;
-  background-size: contain;
-  width: 184px;
-  height: 38px;
-  justify-self: center;
+.header__navigation {
+  margin: auto 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .header__navigation {
+    display: none;
+  }
 }
