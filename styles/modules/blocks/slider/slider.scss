@@ -5,31 +5,8 @@
   height: 100%;
 }
 
-.slider__footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: calc(100% - 50px * 2);
-  width: 100%;
-  margin: 50px auto;
-}
-
-.slider__title {
-  margin: 0;
-  color: inherit;
-  font-family: $font-family;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 46px;
-  line-height: 46px;
-}
-
 @media screen and (max-width: 1199px) {
   .slider {
     align-items: center;
-  }
-
-  .slider__footer {
-    margin-top: 0;
   }
 }

@@ -9,14 +9,6 @@
   opacity: 1;
 }
 
-.slider-navigation__arrow_left {
-  margin-right: 30px;
-}
-
-.slider-navigation__arrow_right {
-  transform: rotate(180deg);
-}
-
 .slider-navigation__arrow:hover {
   opacity: 0.6;
   transition: 0.5s;

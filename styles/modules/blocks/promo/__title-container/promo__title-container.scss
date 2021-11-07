@@ -1,0 +1,17 @@
+.promo__title-container {
+  grid-column: 1/2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 180px auto 0;
+  max-width: 560px;
+  width: calc(100% - 80px * 2);
+}
+
+@media screen and (max-width: 1199px) {
+  .promo__title-container {
+    margin: 100px auto;
+  }
+}

@@ -4,21 +4,3 @@
   max-width: 1440px;
   margin: 0 auto;
 }
-
-.page__content {
-  width: 100%;
-  border-bottom: 1px solid #e1fd2c;
-}
-
-.page__section-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.page__section-container:not(:last-child) {
-  border-right: 1px solid #e1fd2c;
-}
-
-.page__section-container:first-child {
-  border-right: 1px solid #e1fd2c;
-}

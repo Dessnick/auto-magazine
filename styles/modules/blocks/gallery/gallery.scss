@@ -1,8 +1,6 @@
 .gallery {
   display: grid;
   grid-template-columns: repeat(2, 2fr);
-  // gap: 1px;
-  // background-color: #e1fd2c;
 }
 
 @media screen and (max-width: 1199px) {

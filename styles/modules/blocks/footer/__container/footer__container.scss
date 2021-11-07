@@ -1,0 +1,10 @@
+.footer__container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: calc(100% - 50px * 2);
+  height: 100%;
+  max-width: calc(100% - 50px * 2);
+  width: 100%;
+}

@@ -1,0 +1,14 @@
+.slider__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc(100% - 50px * 2);
+  width: 100%;
+  margin: 50px auto;
+}
+
+@media screen and (max-width: 1199px) {
+  .slider__footer {
+    margin-top: 0;
+  }
+}
