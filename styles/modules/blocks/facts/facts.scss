@@ -6,9 +6,9 @@
 }
 
 .facts__description {
-  max-width: 620px;
+  max-width: 78%;
   width: 100%;
-  margin: 40px 50px 45px;
+  margin: 41px 50px;
 
   color: inherit;
   font-family: $font-family;
@@ -20,4 +20,30 @@
 
 .facts__span-accent {
   font-weight: normal;
+}
+
+@media screen and (max-width: 1199px) {
+  .facts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content;
+    min-height: 928px;
+  }
+
+  .facts__container_description {
+    grid-column: 1/3;
+    border-bottom: 1px solid #e1fd2c;
+  }
+
+  .facts__container_pros {
+    grid-row: 2/3;
+  }
+
+  .facts__container_cons {
+    grid-row: 2/3;
+  }
+
+  .facts__description {
+    max-width: 89%;
+    margin-bottom: 45px;
+  }
 }

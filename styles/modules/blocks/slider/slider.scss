@@ -23,3 +23,13 @@
   font-size: 46px;
   line-height: 46px;
 }
+
+@media screen and (max-width: 1199px) {
+  .slider {
+    align-items: center;
+  }
+
+  .slider__footer {
+    margin-top: 0;
+  }
+}

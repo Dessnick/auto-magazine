@@ -18,3 +18,7 @@
 .page__section-container:not(:last-child) {
   border-right: 1px solid #e1fd2c;
 }
+
+.page__section-container:first-child {
+  border-right: 1px solid #e1fd2c;
+}

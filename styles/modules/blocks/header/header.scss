@@ -1,5 +1,4 @@
 .header {
-  grid-area: header;
   display: grid;
   grid-auto-flow: column;
   grid-template-columns: repeat(3, 1fr);
@@ -13,6 +12,11 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header {
+    grid-auto-flow: row;
+    justify-items: end;
+  }
+
   .header__navigation {
     display: none;
   }

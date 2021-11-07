@@ -17,3 +17,11 @@
   padding: 0;
   margin: 50px auto;
 }
+
+@media screen and (max-width: 1199px) {
+  .slider-content {
+    max-width: 700px;
+    max-height: 510px;
+    margin: 35px;
+  }
+}

@@ -28,16 +28,33 @@
           </li>
         </ul>
       </nav>
+      <div class="sticky-header">
+        <div class="burger-menu">
+          <ul class="navigation burger-menu__navigation">
+            <li class="burger-menu__item">
+              <a href="#facts" class="burger-menu__link">Факты</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#gallery" class="burger-menu__link">Галерея</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#press" class="burger-menu__link">Пресса</a>
+            </li>
+          </ul>
+          <button class="burger-menu__close-button"></button>
+        </div>
+      </div>
+      <button class="burger-menu-button"></button>
       <img src="./images/auto-magazine-logo.svg" class="logo" />
     </header>
     <main class="main">
       <section class="promo page__content">
         <div class="promo__title-container">
-          <h2 class="promo__subtitle">Volkswagen&nbsp;T1</h2>
+          <p class="promo__subtitle">Volkswagen&nbsp;T1</p>
           <h1 class="promo__title">Новая версия популярного микроавтобуса</h1>
-          <h2 class="promo__subtitle">С&nbsp;ЭЛЕКТРОДВИГАТЕЛЕМ</h2>
-          <button class="promo__button">Подробнее</button>
+          <p class="promo__subtitle">С&nbsp;ЭЛЕКТРОДВИГАТЕЛЕМ</p>
         </div>
+        <button class="promo__button">Подробнее</button>
         <img
           src="./images/bus-photo.jpg"
           alt="фото микроавтобуса"
@@ -45,7 +62,7 @@
         />
       </section>
       <section class="facts page__content">
-        <div class="page__section-container">
+        <div class="page__section-container facts__container_description">
           <p class="facts__description">
             <span class="facts__span-accent">VW&nbsp;T1&nbsp;Electro:</span>
             Отделение Volkswagen Commercial Vehicles представило концепт
@@ -56,7 +73,7 @@
             готовые машины будут продавать частным клиентам.
           </p>
         </div>
-        <div class="page__section-container">
+        <div class="page__section-container facts__container_pros">
           <div class="pros-cons">
             <h2 class="pros-cons__title">ПЛЮСЫ</h2>
             <ul class="pros-cons__list">
@@ -66,7 +83,7 @@
             </ul>
           </div>
         </div>
-        <div class="page__section-container">
+        <div class="page__section-container facts__container_cons">
           <div class="pros-cons">
             <h2 class="pros-cons__title">МИНУСЫ</h2>
             <ul class="pros-cons__list">
@@ -111,7 +128,6 @@
             </div>
           </div>
         </div>
-        <div class="page__section-container"></div>
       </section>
       <section class="press page__content">
         <div class="page__section-container">
