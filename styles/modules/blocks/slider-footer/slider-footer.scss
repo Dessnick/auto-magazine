@@ -33,4 +33,16 @@
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
+
+  font-family: $font-family;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 28px;
+}
+
+.slider-footer__button:hover {
+  background-color: #e1fd2c;
+  color: #191d2c;
+  transition: 0.5s;
 }

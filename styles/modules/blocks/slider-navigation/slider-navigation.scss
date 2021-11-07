@@ -6,6 +6,7 @@
   cursor: pointer;
   border: none;
   padding: 0;
+  opacity: 1;
 }
 
 .slider-navigation__arrow_left {
@@ -14,4 +15,9 @@
 
 .slider-navigation__arrow_right {
   transform: rotate(180deg);
+}
+
+.slider-navigation__arrow:hover {
+  opacity: 0.6;
+  transition: 0.5s;
 }
