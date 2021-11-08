@@ -28,24 +28,50 @@
           </li>
         </ul>
       </nav>
-      <div class="header__logo"></div>
+      <div class="sticky-header">
+        <div class="burger-menu">
+          <ul class="navigation burger-menu__navigation">
+            <li class="burger-menu__item">
+              <a href="#facts" class="burger-menu__link">Факты</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#gallery" class="burger-menu__link">Галерея</a>
+            </li>
+            <li class="burger-menu__item">
+              <a href="#press" class="burger-menu__link">Пресса</a>
+            </li>
+          </ul>
+          <button class="burger-menu__close-button"></button>
+        </div>
+      </div>
+      <button class="burger-menu-button"></button>
+      <img
+        src="./images/auto-magazine-logo.svg"
+        class="logo"
+        alt="Логотип Auto-Magazine"
+      />
     </header>
     <main class="main">
       <section class="promo page__content">
         <div class="promo__title-container">
-          <h2 class="promo__subtitle">Volkswagen&nbsp;T1</h2>
+          <p class="promo__subtitle">Volkswagen&nbsp;T1</p>
           <h1 class="promo__title">Новая версия популярного микроавтобуса</h1>
-          <h2 class="promo__subtitle">С&nbsp;ЭЛЕКТРОДВИГАТЕЛЕМ</h2>
-          <button class="promo__button">Подробнее</button>
+          <p class="promo__subtitle">С&nbsp;ЭЛЕКТРОДВИГАТЕЛЕМ</p>
         </div>
+        <button class="promo__button">Подробнее</button>
         <img
-          src="./images/bus-photo.png"
+          src="./images/bus-photo.jpg"
           alt="фото микроавтобуса"
           class="promo__picture"
         />
       </section>
       <section class="facts page__content">
-        <div class="facts__container">
+        <div
+          class="
+            facts__container facts__container_type_description
+            page__section-container
+          "
+        >
           <p class="facts__description">
             <span class="facts__span-accent">VW&nbsp;T1&nbsp;Electro:</span>
             Отделение Volkswagen Commercial Vehicles представило концепт
@@ -56,7 +82,12 @@
             готовые машины будут продавать частным клиентам.
           </p>
         </div>
-        <div class="facts__container">
+        <div
+          class="
+            facts__container facts__container_type_pros
+            page__section-container
+          "
+        >
           <div class="pros-cons">
             <h2 class="pros-cons__title">ПЛЮСЫ</h2>
             <ul class="pros-cons__list">
@@ -66,7 +97,12 @@
             </ul>
           </div>
         </div>
-        <div class="facts__container">
+        <div
+          class="
+            facts__container facts__container_type_cons
+            page__section-container
+          "
+        >
           <div class="pros-cons">
             <h2 class="pros-cons__title">МИНУСЫ</h2>
             <ul class="pros-cons__list">
@@ -77,21 +113,21 @@
         </div>
       </section>
       <section class="gallery page__content">
-        <div class="gallery__container">
+        <div class="page__section-container">
           <div class="slider gallery__slider">
             <div class="slider-content slider__slider-content">
               <img
-                src="./images/vwt1-1.png"
+                src="./images/vwt1-1.jpg"
                 alt=""
                 class="slider-content__slide"
               />
               <img
-                src="./images/vwt1-2.png"
+                src="./images/vwt1-2.jpg"
                 alt=""
                 class="slider-content__slide"
               />
               <img
-                src="./images/vwt1-3.png"
+                src="./images/vwt1-3.jpg"
                 alt=""
                 class="slider-content__slide"
               />
@@ -111,13 +147,22 @@
             </div>
           </div>
         </div>
-        <div class="gallery__container"></div>
       </section>
       <section class="press page__content">
-        <div class="press__container">
+        <div
+          class="
+            press__container press__container_place_left
+            page__section-container
+          "
+        >
           <div class="slider__footer"><h2 class="press__title">Пресса</h2></div>
         </div>
-        <div class="press__container">
+        <div
+          class="
+            press__container press__container_place_right
+            page__section-container
+          "
+        >
           <div class="slider">
             <div class="slider-content slider__slider-content">
               <blockquote
@@ -144,7 +189,49 @@
         </div>
       </section>
     </main>
-    <footer class="footer page__content"></footer>
+    <footer class="footer page__content">
+      <div class="page__section-container">
+        <div class="footer__container footer__container_place_left">
+          <div>
+            <h2 class="footer__title">Подписка</h2>
+            <h3 class="footer__subtitle">На новые спецвыпуски машин.</h3>
+          </div>
+          <form name="subscribe" class="subscribe__form">
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_id_name"
+              id="name"
+              placeholder="Имя"
+            />
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_id_surname"
+              id="surname"
+              placeholder="Фамилия"
+            />
+            <input
+              type="text"
+              class="subscribe__item subscribe__item_id_email"
+              id="email"
+              placeholder="Почта"
+            />
+            <button class="subscribe__item subscribe__button" type="submit">
+              подписка
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="page__section-container">
+        <div class="footer__container footer__container_place_right">
+          <img
+            src="./images/auto-magazine-logo.svg"
+            class="logo"
+            alt="Логотип Auto-Magazine"
+          />
+          <p class="footer__copyright">&copy; Auto-Magazine 2021</p>
+        </div>
+      </div>
+    </footer>
     <script src="./scripts/script.js"></script>
   </body>
 </html>

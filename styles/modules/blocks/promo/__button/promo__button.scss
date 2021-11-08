@@ -1,0 +1,36 @@
+.promo__button {
+  grid-column: 1/2;
+  padding: 0;
+  margin: 60px 0 0;
+  width: 360px;
+  height: 64px;
+  color: inherit;
+  background-color: transparent;
+  border: 1px solid #e1fd2c;
+  cursor: pointer;
+  box-sizing: border-box;
+  border-radius: 0px;
+
+  color: inherit;
+  font-family: $font-family;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 60px;
+  letter-spacing: 1px;
+}
+
+.promo__button:hover {
+  background-color: #e1fd2c;
+  color: #191d2c;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1199px) {
+  .promo__button {
+    grid-row: 3/4;
+    margin-top: 100px;
+  }
+}

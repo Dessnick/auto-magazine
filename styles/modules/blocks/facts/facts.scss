@@ -3,30 +3,12 @@
   grid-template-columns: 2fr repeat(2, 1fr);
 
   min-height: 506px;
-  border-bottom: 1px solid #e1fd2c;
 }
 
-.facts__container {
-  display: flex;
-}
-
-.facts__container:not(:last-child) {
-  border-right: 1px solid #e1fd2c;
-}
-
-.facts__description {
-  max-width: 620px;
-  width: 100%;
-  margin: 40px 50px 45px;
-
-  color: inherit;
-  font-family: $font-family;
-  font-style: normal;
-  font-weight: 300;
-  font-size: 30px;
-  line-height: 42px;
-}
-
-.facts__span-accent {
-  font-weight: normal;
+@media screen and (max-width: 1199px) {
+  .facts {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: min-content;
+    min-height: 928px;
+  }
 }

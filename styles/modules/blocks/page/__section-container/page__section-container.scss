@@ -1,0 +1,14 @@
+.page__section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .page__section-container:not(:last-child) {
+    border-right: 1px solid #e1fd2c;
+  }
+
+  .page__section-container:first-child {
+    border-right: 1px solid #e1fd2c;
+  }
+}

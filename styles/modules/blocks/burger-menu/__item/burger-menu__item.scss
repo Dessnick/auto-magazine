@@ -1,0 +1,14 @@
+.burger-menu__item {
+  text-align: start;
+  padding: 0 20px 0 0;
+  margin: 0;
+  border-bottom: 1px solid #6d097a10;
+  box-sizing: border-box;
+  list-style-type: none;
+  transform: scale(1);
+  transition: border 0.2s ease-in-out;
+}
+
+.burger-menu__item:last-child {
+  padding-right: 0;
+}

@@ -4,16 +4,10 @@
   overflow-x: hidden;
 }
 
-.slider-content__slide {
-  max-width: 720px;
-  width: 100%;
-  object-fit: contain;
-}
-
-.slider-content__quote {
-  display: none;
-  max-width: calc(100% - 50px * 2);
-  width: 100%;
-  padding: 0;
-  margin: 50px auto;
+@media screen and (max-width: 1199px) {
+  .slider-content {
+    max-width: 700px;
+    max-height: 510px;
+    margin: 35px;
+  }
 }

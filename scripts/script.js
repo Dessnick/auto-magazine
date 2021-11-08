@@ -7,6 +7,8 @@ const sliderArrowLeft = document.querySelector(
 const sliderArrowRight = document.querySelector(
   ".slider-navigation__arrow_right"
 );
+// let slideIndex = 1;
+// const dotsElements = document.querySelectorAll(".slider-content__dot");
 
 const getMarginRightOfElement = (element) => {
   const slideMargin = window.getComputedStyle(slide).marginRight;
@@ -96,5 +98,35 @@ const scrollLeft = () => {
   scrollSlider(newPositionOfScroll);
 };
 
+// const currentSlide = (n) => {
+//   showSlides((slideIndex = n));
+// };
+
+// const showSlides = (n) => {
+//   let i;
+//   let slides = document.getElementsByClassName("slider-content__quote");
+//   let dots = document.getElementsByClassName("slider-content__dot");
+//   if (n > slides.length) {
+//     slideIndex = 1;
+//   }
+//   if (n < 1) {
+//     slideIndex = slides.length;
+//   }
+//   for (i = 0; i < slides.length; i++) {
+//     slides[i].style.display = "none";
+//   }
+//   for (i = 0; i < dots.length; i++) {
+//     dots[i].className = dots[i].className.replace(" active", "");
+//   }
+//   slides[slideIndex - 1].style.display = "block";
+//   dots[slideIndex - 1].className += " active";
+// };
+
+// showSlides(slideIndex);
+
 sliderArrowLeft.addEventListener("click", scrollLeft);
 sliderArrowRight.addEventListener("click", scrollRight);
+
+// for (let i = 0; i < dotsElements.length; i++) {
+//   dotsElements[i].addEventListener("click", currentSlide(i));
+// }

@@ -1,0 +1,17 @@
+.burger-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 34px;
+  top: 0;
+  max-width: 768px;
+  width: 100%;
+  height: 70px;
+  background-color: #191d2c;
+  background-size: contain;
+  background-repeat: no-repeat;
+  // display: none;
+  // visibility: hidden;
+}
