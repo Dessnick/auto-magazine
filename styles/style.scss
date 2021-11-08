@@ -29,9 +29,9 @@
 @import './modules/blocks/promo/__button/promo__button.scss';
 
 @import './modules/blocks/facts/facts.scss';
-@import './modules/blocks/facts/_container/facts_container_description.scss';
-@import './modules/blocks/facts/_container/facts_container_cons.scss';
-@import './modules/blocks/facts/_container/facts_container_pros.scss';
+@import './modules/blocks/facts/__container/_type/facts__container_type_description.scss';
+@import './modules/blocks/facts/__container/_type/facts__container_type_pros.scss';
+@import './modules/blocks/facts/__container/_type/facts__container_type_cons.scss';
 @import './modules/blocks/facts/__description/facts__description.scss';
 @import './modules/blocks/facts/__span-accent/facts__span-accent.scss';
 @import './modules/blocks/pros-cons/pros-cons.scss';
@@ -47,19 +47,20 @@
 @import './modules/blocks/slider-content/__slide/slider-content__slide.scss';
 @import './modules/blocks/slider-content/__quote/slider-content__quote.scss';
 @import './modules/blocks/slider-navigation/__arrow/slider-navigation__arrow.scss';
-@import './modules/blocks/slider-navigation/__arrow/_place/slider-navigation__arrow_place_left.scss';
-@import './modules/blocks/slider-navigation/__arrow/_place/slider-navigation__arrow_place_right.scss';
+@import './modules/blocks/slider-navigation/__arrow/_left/slider-navigation__arrow_left.scss';
+@import './modules/blocks/slider-navigation/__arrow/_right/slider-navigation__arrow_right.scss';
 @import './modules/blocks/slider-footer/__button/slider-footer__button.scss';
 @import './modules/blocks/slider-footer/__dot-container/slider-footer__dot-container.scss';
 @import './modules/blocks/slider-footer/__dot/slider-footer__dot.scss';
 
 @import './modules/blocks/press/press.scss';
+@import './modules/blocks/press/__container/_place/press__container_place_left.scss';
 @import './modules/blocks/press/__title/press__title.scss';
 
 @import './modules/blocks/footer/footer.scss';
 @import './modules/blocks/footer/__container/footer__container.scss';
-@import './modules/blocks/footer/__container/_place/footer_container_place_left.scss';
-@import './modules/blocks/footer/__container/_place/footer_container_place_right.scss';
+@import './modules/blocks/footer/__container/_place/footer__container_place_left.scss';
+@import './modules/blocks/footer/__container/_place/footer__container_place_right.scss';
 @import './modules/blocks/footer/__title/footer__title.scss';
 @import './modules/blocks/footer/__subtitle/footer__subtitle.scss';
 @import './modules/blocks/footer/__copyright/footer__copyright.scss';

@@ -3,3 +3,9 @@
   grid-template-columns: repeat(2, 2fr);
   min-height: 500px;
 }
+
+@media screen and (max-width: 1199px) {
+  .press {
+    grid-template-columns: 1fr;
+  }
+}
